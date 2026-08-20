@@ -1,0 +1,29 @@
+.env
+.env.local
+
+# python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# node
+node_modules/
+dist/
+
+# databases and data
+*.db
+*.sqlite3
+chroma_data/
+
+# large downloads
+cwec*.xml
+cwec*.zip
+codeql-db/
+
+#notes
+notes/
+ 
+# os junk
+.DS_Store
+
